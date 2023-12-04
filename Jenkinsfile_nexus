@@ -1,0 +1,28 @@
+pipeline {
+    agent { label "agentA" }
+    
+    triggers {
+        pollSCM('* * * * *')
+    }    
+
+    stages {
+        stage('clone_project_A') {
+            steps {
+                echo 'clone project A'
+                git 'https://github.com/vincloud2/Helloworld-latest.git'
+            }
+        }
+        stage('build_project_A') {
+            steps {
+                echo 'build_projectA'
+                sh 'yum install maven -y'
+                sh 'mvn -Dmaven.test.failure.ignore=true install'
+            }
+        } 
+        stage('upload  to Nexus') {
+            steps {
+              nexusArtifactUploader artifacts: [[artifactId: 'helloworld', classifier: '', file: '/var/jenkins/workspace/mydocker_image_vinod/target/helloworld-1.1-SNAPSHOT.war', type: 'war']], credentialsId: 'adm_nexus', groupId: 'com.example', nexusUrl: '13.229.234.4:8081', nexusVersion: 'nexus3', protocol: 'http', repository: 'my_maven', version: '1.1-SNAPSHOT'
+        }
+    }
+  }
+}
