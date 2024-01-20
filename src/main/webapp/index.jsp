@@ -6,13 +6,13 @@
 <title> Welcome  to devops evening batch 2024 </title>
 <style>
   body {
-    background-color: green;
+    background-color: yellow;
   }
 </style>
 </head>
 <body> 
-<h1>Welcome  to devops  evening batch 2024  </h1>
-<p>Welcome  to devops evening batch 2024 .</p>
+<h1>Welcome  to new batch devops  evening batch 2024  </h1>
+<p>Welcome  to new bath devops evening batch 2024 .</p>
 </body>
 </html>
 
