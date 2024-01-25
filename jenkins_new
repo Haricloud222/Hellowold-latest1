@@ -1,0 +1,23 @@
+pipeline {
+    agent {label "projeta"}
+    stages {
+        stage('git clone') {
+            steps {
+                echo 'Hello World'
+                git branch: 'main', url: 'https://github.com/Haricloud222/Hellowold-latest1.git'
+            }
+        }
+        stage('build') {
+            steps {
+                echo 'Hello World'
+                sh 'mvn clean package'
+            }
+        }
+        stage('deploy') {
+            steps {
+                echo 'Hello World'
+                deploy adapters: [tomcat8(credentialsId: 'ec2', path: '', url: 'http://3.110.165.55:8080/')], contextPath: null, war: '**/*.war'
+            }
+        }
+    }
+}
