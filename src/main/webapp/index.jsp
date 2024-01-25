@@ -3,16 +3,16 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title> Welcome  to devops evening batch 2024 </title>
+<title> Welcome  aws & devop evening class 2024 </title>
 <style>
   body {
-    background-color: yellow;
+    background-color: white;
   }
 </style>
 </head>
 <body> 
-<h1>Welcome  to new batch devops  evening batch 2024  </h1>
-<p>Welcome  to new bath devops evening batch 2024 .</p>
+<h1>Welcome  to aws & devop evening class 2024  </h1>
+<p>Welcome  to aws & devop evening class 2024 .</p>
 </body>
 </html>
 
