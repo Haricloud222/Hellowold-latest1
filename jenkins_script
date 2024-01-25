@@ -1,0 +1,18 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('git clone') {
+            steps {
+                echo 'Hello World'
+                git branch: 'main', url: 'https://github.com/Haricloud222/Hellowold-latest1.git'
+            }
+        }
+        stage('build') {
+            steps {
+                echo 'Hello World'
+                sh 'mvn clean package'
+            }
+        }
+    }
+}
