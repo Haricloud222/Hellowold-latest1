@@ -11,8 +11,8 @@
 </style>
 </head>
 <body> 
-<h1>Welcome  to aws & devop evening class 2024  </h1>
-<p>Welcome  to aws & devop evening class 2024 .</p>
+<h1>Welcome  to aws & devop evening  2024  </h1>
+<p>Welcome  to aws & devop evening  2024 .</p>
 </body>
 </html>
 
