@@ -6,7 +6,7 @@
 <title> Welcome  aws & devop evening class 2024 </title>
 <style>
   body {
-    background-color: red;
+    background-color: yellow;
   }
 </style>
 </head>
