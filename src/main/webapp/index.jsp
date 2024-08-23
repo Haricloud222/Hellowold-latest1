@@ -3,10 +3,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title> Welcome  aws & devop evening class 2024 </title>
+<title> Welcome cloudcompution 2024 </title>
 <style>
   body {
-    background-color: blue;
+    background-color: indigo;
   }
 </style>
 </head>
