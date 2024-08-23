@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title> Welcome cloudcompution 2024 </title>
+<title> Welcome cloudcompute 2024 </title>
 <style>
   body {
     background-color: indigo;
@@ -11,8 +11,8 @@
 </style>
 </head>
 <body> 
-<h1>Welcome  to aws & devop evening  2024  </h1>
-<p>Welcome  to aws & devop evening  2024 .</p>
+<h1>Welcome cloudcompute 2024  </h1>
+<p>Welcome  cloudcompute  2024 .</p>
 </body>
 </html>
 
