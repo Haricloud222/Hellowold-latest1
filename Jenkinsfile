@@ -18,7 +18,13 @@ pipeline {
                 sh 'yum install maven -y'
                 sh 'mvn -Dmaven.test.failure.ignore=true install'
             }
-        } 
+        }
+        stage('Deploy_to_war') {
+            steps {
+                echo 'Deploy to WAR'
+                
+            }
+        }
         stage('Docker_build') {
             steps {
                 echo 'Docker build_projectd'
