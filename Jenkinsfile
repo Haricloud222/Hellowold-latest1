@@ -22,7 +22,7 @@ pipeline {
         stage('Deploy_to_war') {
             steps {
                 echo 'Deploy to WAR'
-                
+                deploy adapters: [tomcat8(credentialsId: 'timcat22', path: '', url: 'http://13.233.82.120:8080/')], contextPath: null, war: '**/*.war'
             }
         }
         stage('Docker_build') {
