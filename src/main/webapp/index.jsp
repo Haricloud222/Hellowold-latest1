@@ -6,7 +6,7 @@
 <title> Welcome cloudcompute 2025 </title>
 <style>
   body {
-    background-color: yellow;
+    background-color: orange;
   }
 </style>
 </head>
