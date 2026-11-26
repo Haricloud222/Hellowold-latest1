@@ -3,10 +3,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title> Welcome cloudcompute 2025 </title>
+<title> Welcome cloudcompute 2026 </title>
 <style>
   body {
-    background-color: orange;
+    background-color: voilet;
   }
 </style>
 </head>
