@@ -11,8 +11,8 @@
 </style>
 </head>
 <body> 
-<h1>Welcome cloudcompute 2024  </h1>
-<p>Welcome  cloudcompute  2024 .</p>
+<h1>Welcome cloudcompute 2026  </h1>
+<p>Welcome  cloudcompute  2026 .</p>
 </body>
 </html>
 
